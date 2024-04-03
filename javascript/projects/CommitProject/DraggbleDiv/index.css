@@ -1,0 +1,28 @@
+body{
+    background-color: yellowgreen;
+    padding:0;
+    MARGIN: 0;
+    background: linear-gradient(135deg , #c3a3f1 , #6414e9);
+}
+#container{
+    height: 100vh;
+    width:100vw;
+    position: relative;
+}
+#dragable{
+    position: absolute;
+    height:7em;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  display: grid;
+  place-items: center;
+  cursor: move;
+
+    width:7em;
+    border-radius: 50px;
+    background-color:rgb(235, 231, 231);
+   font-size: 18px;
+    font-weight: 800;
+
+}

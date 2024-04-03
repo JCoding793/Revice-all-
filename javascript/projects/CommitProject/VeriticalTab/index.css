@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #4d5bf9;
+}
+.container{
+    background-color: #ffff;
+    width: 95vmin;
+    font-size: 16px;
+    min-width: 30em;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+    display: grid;
+    grid-template-columns: 2fr 9fr;
+}
+
+.tabs{
+    display: grid;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #e4e9fd;
+}
+h3{
+    height: 33.33%;
+    display: grid;
+    place-items: center;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.tab-content div{
+    display: none;
+}
+
+.tab-content .active{
+    display: block;
+}
+
+.tabs .active{
+    background-color: #fff;
+    color: blue
+}

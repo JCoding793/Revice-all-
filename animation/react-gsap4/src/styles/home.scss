@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@100;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@100;700&display=swap");
+
+$bg-color: #f5f0ec;
+
+body {
+  font-family: "Poppins", sans-serif;
+
+  // cursor: none;
+  background-color: $bg-color;
+}
+
+.main-container {
+  padding: 0 5vw;
+  // clip-path: inset(100% 0% 0% 0%);
+  // backface-visibility: hidden;
+}
+section{
+    padding: 100px 0;
+    .section-header{
+        margin-bottom: 50px;
+    }
+}
+
+.loader-wrapper{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #191919;
+  color: #dbb8d6;
+  h1{
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-family:"Bai Jamjuree" , serif;
+    font-style: italic;
+    margin-top: 10px;
+  }
+}
+
+.absolute{
+  position: fixed;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left:0;
+  background-color: black;
+  z-index: 1;
+}

@@ -1,0 +1,38 @@
+*{
+  margin:  0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+ 
+}
+body{
+
+  background-color: #161616;
+  overflow: hidden;
+}
+
+.header{
+  position: absolute;
+  display: flex;
+  height: 150px;
+  width: 100%;
+  z-index: 1000;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.header ul{
+  list-style-type: none;
+  text-align: right;
+  margin-right: 30px;
+  
+}
+.header ul li .link{
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+  text-decoration: none;
+}

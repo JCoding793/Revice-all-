@@ -1,0 +1,67 @@
+
+.zoom_container {
+    background: #171717;
+   & .pinImage {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+   }
+  & .pinImageContainer {
+    padding-top: 58%;
+    position: relative;
+    width: 100%;
+    transform: scale(0.75);
+  }
+
+  & .pinImageOverlay {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  & .pinImageContainer img {
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+ & .pinImageQutoe{
+   font-weight: 300;
+   left: 50%;
+   position: absolute;
+   text-align: center;
+   top:50%;
+   transform: translate3d(-50% ,-50% , 0);
+  }
+  & .pinImageQutoe blockquote {
+    margin-bottom: 75px;
+    color: #fff;
+  }
+  & blockquote {
+    line-height: 1.5;
+    font-size: 25px;
+  }
+  & .d-hero-storke {
+    display: inline-block;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  & .pinImageQutoeAuthor {
+    position: relative;
+    margin: 0;
+    margin-bottom: 60px;
+    line-height: 0.8;
+    font-size: 70px;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+  }
+}

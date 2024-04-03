@@ -1,0 +1,41 @@
+.gallery.product-smoth-scroll {
+  display: flex;
+}
+.gallery.product-smoth-scroll .left {
+  width: 50%;
+  margin-left: auto;
+}
+.gallery.product-smoth-scroll .left .details {
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  flex: 1 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  color: #000;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.gallery.product-smoth-scroll .rightBox {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.gallery.product-smoth-scroll .rightBox .right-inner-content {
+  width: 80vh;
+  height: 80vh;
+  position: relative;
+}
+.gallery.product-smoth-scroll .rightBox .right-inner-content .photo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.gallery.product-smoth-scroll .rightBox .right-inner-content .photo .imgage {
+  height: 100%;
+  width: 100%;
+}/*# sourceMappingURL=App.css.map */

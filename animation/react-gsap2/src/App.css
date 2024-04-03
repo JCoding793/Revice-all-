@@ -1,0 +1,37 @@
+body{
+
+    background-color: #121212;
+    overflow: hidden;
+    }
+    
+    .content{
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      top:100px;
+      left:100px;
+    }
+    .content h1{
+      margin-bottom: 5px;
+      font-size:100px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #ff77f4;
+      cursor: crosshair;
+    
+    }
+    .cursor-follow{
+      position: absolute;
+      background: url(./images/img.jpg);
+      background-size: cover;
+      width:300px;
+      mix-blend-mode: difference;
+      height: 400px;
+      z-index: 2;
+      user-select: none;
+      pointer-events: none;
+
+    }
+    
+    
+    

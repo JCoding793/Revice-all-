@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <ul>
+    <li id="mon">Monday</li>
+    <li id="tue">Tuesday</li>
+    <li id="wed">Wednesday</li>
+    <li id="thu">Thursday</li></ul>
+</body>
+<script>
+   let mon = document.querySelector("#mon");
+      mon.addEventListener("" , function (e){
+       console.log(e);
+       let removIt = e.target.parentNode;
+       removIt.remove()
+      } , false)
+</script>
+
+</html>
